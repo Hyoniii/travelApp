@@ -1,0 +1,206 @@
+body {
+  font-family: sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: rgb(0, 5, 59);
+  height: 950px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__phone {
+  background: linear-gradient(
+      rgba(240, 205, 240, 0) 20%,
+      rgba(240, 205, 240, 0.7) 38%,
+      rgba(240, 205, 240, 0.9) 43%,
+      rgb(248, 211, 248) 48%
+    ),
+    url("newyork1.jpg");
+  background-size: contain;
+  width: 380px;
+  height: 860px;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+.top-bar,
+.phone__mid-bar,
+.phone__mid-other {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.top-bar__time {
+  font: bold 20px "Josefin Slab";
+}
+.phone__mid-bar {
+  padding: 0px 20px;
+  font-size: 25px;
+}
+.phone__mid-img {
+  width: 100%;
+
+  margin-top: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+.mid-img {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.mid-box {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  background-color: #430053a4;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 13px;
+  margin-bottom: 25px;
+}
+.phone__mid-content {
+  width: 100%;
+  display: flex;
+}
+.mid-content {
+  background-color: #ffffff6e;
+  color: #003b6b;
+  font: 18px "Work Sans";
+
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.phone__mid-main {
+  width: 100%;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mid-maincontent {
+  font: bold 40px "Josefin Slab";
+}
+.mid-mainicon {
+  background-color: rgba(255, 255, 255, 0.712);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 23px;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rocation-icon {
+  font-size: 20px;
+  color: #003b6b;
+}
+.rocation-text {
+  font: 18px "Work Sans";
+  color: #003b6b91;
+}
+.phone__mid-other {
+}
+.mid-other__column {
+  margin-top: 15px;
+  font-family: "Work Sans";
+  display: flex;
+  font-size: 22px;
+  color: #003b6b;
+}
+.other__star {
+  color: #fabb1b;
+  margin-right: 10px;
+}
+.other__meter {
+  color: #003b6b91;
+}
+.phone__mid-info {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poiret One";
+}
+.info-title {
+  font-size: 25px;
+  color: #034c88a1;
+  margin-bottom: 8px;
+}
+.info-content {
+  font-size: 21px;
+  color: #012e53;
+  margin-bottom: 13px;
+}
+.info-more {
+  font: bold 25px "Work Sans";
+  color: #003b6b;
+}
+.bottom-mainbar {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+}
+.mainbar__column-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone__main-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.bottom__road-back {
+  background-color: rgba(128, 128, 128, 0.52);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.bottom__road {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom__road > i {
+  background-color: #012e53;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: -25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainbar-icon {
+  font-size: 32px;
+  padding: 0 20px;
+  color: #003b6b91;
+}
+.fa-globe-asia {
+  color: #012e53;
+  border-top: #012e53;
+}
